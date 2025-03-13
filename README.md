@@ -11,16 +11,49 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+1. Leveling of questions: The application must be thought to ask from ice breaking questions to talent identification questions.
+
+2. Data collection: The data collection must be based on a persons previous experiences, educational qualifications and skills to make it more unbiased.
+
+3. Accurte response identification: While capturing responses keywords and ideas must be identified correctly.
+
+4. Appropriate grading: A score ranging from 1-10 must be given for each response.
+ 
+5. Acceptibility: When the score reaches above the given criteria, the candidate should be accepted and data should be stored to review later.
+
+
 
 
 ## Proposed Solution / Architecture Diagram
+![Screenshot 2025-03-13 092828](https://github.com/user-attachments/assets/ee702522-649d-4038-af89-23d45ebff990)
 
 
 ## Use Cases
+![Screenshot 2025-03-13 092919](https://github.com/user-attachments/assets/5a937bbe-1311-430a-aaad-7e27f2cb40ab)
 
 
 ## Technology Stack
+Frontend : React.js, Angular, HTML, CSS, Bootstrap
 
+Backend : Node.js (Express) / Django (Python)
+
+Database : PostgreSQL / MongoDB
+
+Authentication : OAuth 2.0, JWT
+
+AI/ML Models : Python (Scikit-learn, TensorFlow)
+
+Cloud & Storage : AWS S3 / Firebase Storage
+
+Testing & CI/CD : Jest, Cypress, Docker, GitHub Actions
 
 ## Dependencies
+1.Cloud Services (AWS, GCP, or Firebase for hosting & storage).
 
+2.AI/ML Models for applicant ranking and evaluation.
+
+3.Database for storing applicant & selector data.
+
+4.Authentication Providers (Google OAuth, LinkedIn, etc.).
+
+5.Third-party APIs (for resume parsing, NLP-based applicant profiling).
